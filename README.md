@@ -180,9 +180,19 @@ AI-Meeting-Assistant/
 │   └── meeting_minutes_and_tasks.txt
 │
 └── screenshots/
-    ├── whisper-transcription.png
-    └── ai-meeting-assistant.png
+        └── ai-meeting-assistant.png
 ```
+### Transcription Challenge
+
+During testing, Whisper produced the following raw transcription:
+
+> "our maximum loss will mat exceed 5 million in the next trading day"
+
+After contextual processing, the final meeting output represented the statement as:
+
+> "The company has a 99% confidence level that its maximum loss will not exceed $5 million in the next trading day."
+
+This demonstrates how an LLM-based post-processing layer can help normalize and contextualize speech-to-text output before generating structured meeting documentation.
 
 ## 👤 Author
 
