@@ -1,0 +1,7 @@
+torch==2.1.1
+transformers==4.35.2
+gradio==5.9.0
+langchain==0.3.12
+langchain-ibm==0.3.5
+ibm-watsonx-ai==1.1.16
+pydantic==2.10.3
