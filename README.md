@@ -141,8 +141,7 @@ The completed Gradio application provides:
 - Key points and action items
 - Downloadable meeting output
 
-> Application screenshot will be added here.
-
+![AI Meeting Assistant - Multimodal GenAI Application](ai-meeting-assistant.png)
 ## 🧠 What I Learned
 
 This project provided hands-on experience building an end-to-end multimodal GenAI workflow, including:
